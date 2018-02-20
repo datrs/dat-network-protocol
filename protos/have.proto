@@ -1,0 +1,5 @@
+message Have {
+  required uint64 start = 1;
+  optional uint64 length = 2 [default = 1];
+  optional bytes bitfield = 3;
+}

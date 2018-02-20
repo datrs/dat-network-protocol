@@ -1,0 +1,4 @@
+message Feed {
+  required bytes discoveryKey = 1;
+  optional bytes nonce = 2;
+}

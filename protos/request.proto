@@ -1,0 +1,6 @@
+message Request {
+  required uint64 index = 1;
+  optional uint64 bytes = 2;
+  optional bool hash = 3;
+  optional uint64 nodes = 4;
+}

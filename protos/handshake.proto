@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message Handshake {
+  optional bytes id = 1;
+  optional bool live = 2;
+  optional bytes userData = 3;
+  repeated string extensions = 4;
+}

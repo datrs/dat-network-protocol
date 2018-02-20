@@ -1,0 +1,4 @@
+message Info {
+  optional bool uploading = 1;
+  optional bool downloading = 2;
+}
