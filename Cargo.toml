@@ -1,5 +1,5 @@
 [package]
-name = "sleep-protocol"
+name = "dat-network-protocol"
 description = "SLEEP Network Protocol protobuf definitions."
 version = "0.1.1"
 authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
