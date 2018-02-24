@@ -2,7 +2,7 @@
 [![crates.io version][1]][2] [![build status][3]][4]
 [![downloads][5]][6] [![docs.rs docs][7]][8]
 
-SLEEP Network Protocol protobuf definitions.
+Dat Network Protocol protobuf definitions.
 
 ## Installation
 ```sh

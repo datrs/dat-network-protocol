@@ -1,6 +1,6 @@
 [package]
 name = "dat-network-protocol"
-description = "SLEEP Network Protocol protobuf definitions."
+description = "Dat Network Protocol protobuf definitions."
 version = "0.1.1"
 authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
 license = "Apache-2.0"
