@@ -17,7 +17,7 @@ $ cargo add dat-network-protocol
 - https://github.com/datproject/docs/blob/master/papers/dat-paper.md
 
 ## License
-[MIT](./MIT) OR [Apache-2.0](./APACHE)
+[MIT](./LICENSE-MIT) OR [Apache-2.0](./LICENSE-APACHE)
 
 [1]: https://img.shields.io/crates/v/dat-network-protocol.svg?style=flat-square
 [2]: https://crates.io/crate/dat-network-protocol
