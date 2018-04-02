@@ -3,7 +3,8 @@ name = "dat-network-protocol"
 description = "Dat Network Protocol protobuf definitions."
 version = "0.1.1"
 authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
-license = "MIT OR Apache0.0"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
 
 [dependencies]
 protobuf = "1.4.3"
