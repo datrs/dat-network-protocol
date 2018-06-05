@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 readme = "README.md"
 
 [dependencies]
-protobuf = "1.4.3"
+protobuf = "~1.5"
 
 [build-dependencies]
-protoc-rust = "1.4"
+protoc-rust = "~1.5"
