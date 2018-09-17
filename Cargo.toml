@@ -10,4 +10,4 @@ readme = "README.md"
 protobuf = "~1.5"
 
 [build-dependencies]
-protoc-rust = "~1.5"
+protoc-rust = "~2.0"
