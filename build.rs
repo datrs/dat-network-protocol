@@ -1,7 +1,9 @@
-extern crate protoc_rust;
+// extern crate protoc_rust;
+
+// use protoc_rust::Customize;
 
 // Uncomment method below for like local builds.
-fn main() {
+fn main() -> Result<(), Box<dyn std::error::Error>> {
   // protoc_rust::run(protoc_rust::Args {
   //   out_dir: "src",
   //   input: &[
@@ -17,6 +19,10 @@ fn main() {
   //     "protos/unwant.proto",
   //     "protos/want.proto",
   //   ],
+  //   customize: Customize {
+  //     ..Default::default()
+  //   },
   //   includes: &["protos"],
-  // }).expect("protoc");
+  // })?;
+  Ok(())
 }
