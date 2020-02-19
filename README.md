@@ -4,6 +4,8 @@
 
 Dat Network Protocol protobuf definitions.
 
+Includes a Noise handshake, and is not backwards compatible with Hypercore <= 7
+
 ## Installation
 ```sh
 $ cargo add dat-network-protocol
