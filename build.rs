@@ -1,10 +1,6 @@
-// extern crate protoc_rust;
-
-// use protoc_rust::Customize;
-
 // Uncomment method below for like local builds.
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-  // protoc_rust::run(protoc_rust::Args {
+  // protobuf_codegen_pure::run(protobuf_codegen_pure::Args {
   //   out_dir: "src",
   //   input: &[
   //     "protos/cancel.proto",
@@ -19,7 +15,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
   //     "protos/unwant.proto",
   //     "protos/want.proto",
   //   ],
-  //   customize: Customize {
+  //   customize: protobuf_codegen_pure::Customize {
   //     ..Default::default()
   //   },
   //   includes: &["protos"],
