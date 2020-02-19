@@ -343,7 +343,7 @@ impl ::std::fmt::Debug for Data {
 }
 
 impl ::protobuf::reflect::ProtobufValue for Data {
-    fn as_ref(&self) -> ::protobuf::reflect::ProtobufValueRef {
+    fn as_ref(&self) -> ::protobuf::reflect::ProtobufValueRef<'_> {
         ::protobuf::reflect::ProtobufValueRef::Message(self)
     }
 }
@@ -609,7 +609,7 @@ impl ::std::fmt::Debug for Data_Node {
 }
 
 impl ::protobuf::reflect::ProtobufValue for Data_Node {
-    fn as_ref(&self) -> ::protobuf::reflect::ProtobufValueRef {
+    fn as_ref(&self) -> ::protobuf::reflect::ProtobufValueRef<'_> {
         ::protobuf::reflect::ProtobufValueRef::Message(self)
     }
 }

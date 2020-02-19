@@ -5,6 +5,7 @@ version = "0.2.0"
 authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
+edition = "2018"
 
 [dependencies]
 protobuf = "=2.10.1"

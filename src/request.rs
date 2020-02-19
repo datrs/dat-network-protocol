@@ -307,7 +307,7 @@ impl ::std::fmt::Debug for Request {
 }
 
 impl ::protobuf::reflect::ProtobufValue for Request {
-    fn as_ref(&self) -> ::protobuf::reflect::ProtobufValueRef {
+    fn as_ref(&self) -> ::protobuf::reflect::ProtobufValueRef<'_> {
         ::protobuf::reflect::ProtobufValueRef::Message(self)
     }
 }

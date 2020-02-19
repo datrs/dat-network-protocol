@@ -229,7 +229,7 @@ impl ::std::fmt::Debug for Want {
 }
 
 impl ::protobuf::reflect::ProtobufValue for Want {
-    fn as_ref(&self) -> ::protobuf::reflect::ProtobufValueRef {
+    fn as_ref(&self) -> ::protobuf::reflect::ProtobufValueRef<'_> {
         ::protobuf::reflect::ProtobufValueRef::Message(self)
     }
 }

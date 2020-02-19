@@ -226,7 +226,7 @@ impl ::std::fmt::Debug for Info {
 }
 
 impl ::protobuf::reflect::ProtobufValue for Info {
-    fn as_ref(&self) -> ::protobuf::reflect::ProtobufValueRef {
+    fn as_ref(&self) -> ::protobuf::reflect::ProtobufValueRef<'_> {
         ::protobuf::reflect::ProtobufValueRef::Message(self)
     }
 }

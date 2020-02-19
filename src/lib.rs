@@ -4,7 +4,7 @@
 //!  [`rust-protobuf`]: https://github.com/stepancheg/rust-protobuf
 //!  [Dat paper]: https://github.com/datproject/docs/blob/master/papers/dat-paper.md
 
-extern crate protobuf;
+
 
 pub mod cancel;
 pub mod data;
