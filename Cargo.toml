@@ -9,7 +9,7 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-protobuf = "=2.10.1"
+protobuf = "=2.10.2"
 
 [build-dependencies]
 protobuf-codegen-pure = "=2.10.1"
